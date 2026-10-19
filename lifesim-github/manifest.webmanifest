@@ -1,0 +1,86 @@
+{
+  "id": "/",
+  "name": "Life Sim",
+  "short_name": "Life Sim",
+  "description": "Live a whole life, one year at a time.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1b2766",
+  "theme_color": "#1b2766",
+  "categories": [
+    "games",
+    "simulation"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "prefer_related_applications": false,
+  "screenshots": [
+    {
+      "src": "screenshot-1.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Your life at a glance"
+    },
+    {
+      "src": "screenshot-2.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Love, weddings and family"
+    },
+    {
+      "src": "screenshot-3.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Stocks, cars and homes"
+    },
+    {
+      "src": "screenshot-4.png",
+      "sizes": "540x960",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Adopt and care for pets"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play Life Sim",
+      "short_name": "Play",
+      "url": "./",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
